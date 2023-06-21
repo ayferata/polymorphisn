@@ -10,21 +10,27 @@ public String konus(){ return "Hayvan Konuşuyor...";     }
 }
 
 class Kedi extends Hayvan{ 
-public Kedi(String isim) { super(isim);     }
+public Kedi(String isim) { super(isim);   
+}
 
-@Override public String konus() { return this.getIsim() + " Miyavlıyor...";     }
+@Override public String konus() { return this.getIsim() + " Miyavlıyor...";    
+  }
 }
 
 class Kopek extends Hayvan { 
-public Kopek(String isim) { super(isim);     }
+public Kopek(String isim) { super(isim);    
+}
 
-@Override public String konus() { return this.getIsim() + " Havlıyor...";     }
+@Override public String konus() { return this.getIsim() + " Havlıyor...";    
+  }
 }
 
 class At extends Hayvan { 
-public At(String isim) { super(isim);     }
+public At(String isim) { super(isim);    
+  }
 
-@Override public String konus() { return this.getIsim() + " Kişniyor...";     }
+@Override public String konus() { return this.getIsim() + " Kişniyor...";   
+  }
 }
 
 public class Main { 
